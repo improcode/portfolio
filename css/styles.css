@@ -1,0 +1,241 @@
+
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/header1.jpg");
+
+    /* Set a specific height */
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header1 {
+    display: flex;
+    height: 200px;
+    justify-content: flex-start;
+    margin-left: 30%;
+    align-items: flex-end;
+
+}
+
+.header2 {
+    display: flex;
+    height: 200px;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+
+.h1-header1 {
+    padding: 3px 20px 3px 20px;
+    background-color: #8e00ff;
+    color: white;
+    font-size: 3vw;
+    /*    border: 1px solid #8e00ff;*/
+}
+
+.h1-header2 {
+    margin-right: 5%;
+    width: 55%;
+    padding: 3px 0px 3px 20px;
+    background-color: white;
+    font-size: 3vw;
+    /*    border: 1px solid #8e00ff;*/
+}
+
+
+.h1-exp {
+    padding: 3px 100px 3px 100px;
+    background-color: white;
+/*    border: 1px solid #8e00ff;*/
+}
+
+.about {
+padding-bottom: 2rem;
+    background-color: #8e00ff;
+    /*font-size:36px;*/
+    color: white;
+    display: flex;
+
+}
+
+.about__p {
+    margin-top:3.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.line {
+    color: white;
+}
+
+.photo-author {
+    margin-top: 3.5rem;
+/*padding-left: 2.5rem;*/
+    display: flex;
+    justify-content: center;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../img/header1.jpg");
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exp {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.portfolio {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    background-color: #D3D3D3;
+}
+
+.portfolio__card {
+    width: 15rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+.card {
+    border: none;
+    border-radius: 0;
+}
+
+.card:hover {
+    background-color: #8e00ff;
+    border-radius: 0;
+    text-decoration: none;
+    color: white !important;
+
+}
+
+
+.card-title{
+    color: black;
+}
+
+.card:hover .card-title {
+    color: white;
+}
+
+.portfolio-a {
+    color: #D3D3D3;
+}
+
+.portfolio-a:hover {
+    color: white !important;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../img/jeshoots-com-219386-unsplash.jpg");
+
+    /* Set a specific height */
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-plx {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.h1-contact {
+    padding: 3px 100px 3px 100px;
+    background-color: #8e00ff;
+    color: white;
+    /*    border: 1px solid #8e00ff;*/
+}
+
+.contact {
+    background-color: #8e00ff;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.form-control {
+    background: 0 0;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 5px;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+
+#submit {
+    margin-top: 20px;
+    padding: 3px 40px 3px 40px;
+    border: 4px solid white;
+    border-radius: 0;
+    background: 0 0;
+    color: white;
+    float: right;
+}
+
+#submit:hover {
+    background-color: white;
+    box-shadow: 2px 2px 2px;
+    color: #8e00ff;
+
+}
+
+
+/*MOBILE MEDIA*/
+
+@media screen and (max-width: 768px) {
+    .header1 {
+        margin-left: 10%;
+    }
+    .h1-header1 {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header2 {
+        margin-right: 0%;
+    }
+    .h1-header2 {
+        margin-right: 0px;
+        font-size: 5.5vw;
+        width: 90%;
+    }
+}
