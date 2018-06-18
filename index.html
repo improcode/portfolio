@@ -79,7 +79,7 @@
 
                 <p class="about__p">Front-End Developer with practical experience in project
                     management, branding strategy and creative direction. I`m looking for new challenges to improve my technical skills. Currently, I`m starting to learn Angular and Typescript.
-                <br>If you want to know more about me, check my <a class="link" href="javascript:document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });"><strong>projects</strong></a> and <a class="link" href="ARTUR%20Miłkowski_frontend.pdf" target="_blank"><strong>CV</strong></a>.</p>
+                <br>If you want to know more about me, check my <a class="link" href="javascript:document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });"><strong>projects</strong></a> and <a class="link" href="artmilkowski_frontend.pdf" target="_blank"><strong>CV</strong></a>.</p>
                 <hr class="line">
                 <h1 class="about__h1">FRONTEND DEVELOPER</h1>
             </div>
@@ -175,13 +175,11 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-6">
-                <form>
-                    <!--<div class="form-group">-->
-                    <input type="text" class="form-control" placeholder="name">
-                    <input type="email" class="form-control" placeholder="e-mail">
-                    <input type="tel" class="form-control" placeholder="phone number">
+                <form method="POST" action="https://formspree.io/art.milkowski@gmail.com">
+                    <input type="text" name="name" class="form-control" placeholder="name">
+                    <input type="email" name="email" class="form-control" placeholder="e-mail">
+                    <input type="tel" name="phone" class="form-control" placeholder="phone number">
                     <button id="submit" type="submit" class="btn btn-default">SUBMIT</button>
-                    <!-- </div>-->
                 </form>
             </div>
 
