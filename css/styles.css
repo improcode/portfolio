@@ -54,7 +54,7 @@ li {
 .navigation-mobile {
     display: none;
     position: fixed;
-    top: 5px;
+    align-items: center;
     left: 91vw;
     z-index: 1;
 }
@@ -74,6 +74,7 @@ li {
     display: block;
     position: relative;
     top: 5px;
+    right: 5vw;
 
 
     z-index: 1;
@@ -132,7 +133,7 @@ li {
 #menuToggle input:checked ~ span
 {
     opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(-2px, -1px) translateY(1.5rem);
     background: #232323;
 }
 
@@ -144,16 +145,20 @@ li {
 
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-    transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, -1px) translateX(-1.5rem);
+}
+
+#menuToggle input:checked {
+    transform: translateY(1.5rem) translateX(-1.5rem);
 }
 
 #menu
 {
     position: absolute;
     width: 300px;
-    margin: -100px 0 0 -240px;
+    margin: -100px 0 0 -180px;
     padding: 50px;
-    padding-top: 125px;
+    padding-top: 110px;
 
     background: #D3D3D3;
     list-style-type: none;
